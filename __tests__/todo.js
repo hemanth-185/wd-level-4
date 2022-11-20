@@ -22,7 +22,7 @@ describe("Todo List Test Suite", () => {
         dueDate: new Date().toLocaleDateString("en-CA"),
       },
       {
-        title: "Submit assignment",
+        title: "complete assignment",
         completed: false,
         dueDate: new Date(todays.getTime() + 2 * one_Day).toLocaleDateString(
           "en-CA"
